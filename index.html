@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta name="robots" content="noodp" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <!-- PAGE TITLE -->
+    <title>Mapleverse</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!-- IMAGE CONTAINER -->
+    <div class="image-container">
+      <div class="background-img"></div>
+    </div>
+    <!-- /IMAGE CONTAINER -->
+
+    <!-- CONTENT AREA -->
+    <div class="content-area">
+      <!-- CONTENT AREA INNER -->
+      <div class="content-area-inner">
+        <!-- INTRO -->
+        <section id="intro">
+          <!-- CONTAINER MID -->
+          <div class="container-mid">
+            <!-- ANIMATION CONTAINER -->
+            <div
+              class="animation-container animation-fade-right"
+              data-animation-delay="0"
+            >
+              <h1>I’m Arisa Kaewsuan .</h1>
+            </div>
+            <!-- /ANIMATION CONTAINER -->
+
+            <!-- ANIMATION CONTAINER -->
+            <div
+              class="animation-container animation-fade-right"
+              data-animation-delay="200"
+            >
+              <a href="#about" class="smooth-scroll"
+                >crud_php
+                <div class="circle">
+                  <i class="fa fa-angle-down" aria-hidden="true"></i
+                  ><i class="fa fa-angle-down" aria-hidden="true"></i></div
+              ></a>
+            </div>
+            <!-- /ANIMATION CONTAINER -->
+          </div>
+          <!-- /CONTAINER MID -->
+        </section>
+        <!-- /INTRO -->
+
+        <!-- ABOUT -->
+        <section id="about">
+          <h3 class="headline scroll-animated">Software Process</h3>
+
+          <button type="button" class="collapsible"> 1. &nbsp; &nbsp; Requirements Gettering </button>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <button type="button" class="collapsible">2. &nbsp; &nbsp; Analysis </button>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <button type="button" class="collapsible">3. &nbsp; &nbsp; Design </button>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <button type="button" class="collapsible">4. &nbsp; &nbsp; Implement </button>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <button type="button" class="collapsible">5. &nbsp; &nbsp; Testing </button>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <button type="button" class="collapsible">6. &nbsp; &nbsp; Deploy </button>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+         
+
+    <!-- JAVASCRIPTS -->
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+    <script type="text/javascript" src="assets/js/plugins.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
