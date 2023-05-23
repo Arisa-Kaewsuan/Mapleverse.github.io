@@ -443,13 +443,17 @@ button {
 *******************************************************************/
 
 #about p {
-  margin-bottom: 2.2em;
+  margin-bottom: 2em;
   color: #000;
   font-size: 15px;
 }
 
 #about p:last-child {
   margin-bottom: 0;
+}
+
+#about ul li {
+  color: #000;
 }
 
 #about .clients img {
